@@ -1,6 +1,38 @@
 # Luxon Cheat Sheet
 Luxon Cheat Sheet with the most needed stuff..
 
+
+
+## Datetime instance
+
+
+<br><br>
+
+### Create Datetime instance from JS date
+```javascript
+const date = new Date();
+const datetime = DateTime.fromJSDate(date); 
+```
+
+### Create Datetime instance from ISO String
+```javascript
+const startDate = DateTime.fromISO('2017-04-01')
+```
+
+
+<br><br>
+________________________________________________________________
+________________________________________________________________
+
+<br><br>
+
+
+
+
+
+
+
+
 <br><br>
 
 ## Add days
