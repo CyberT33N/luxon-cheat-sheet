@@ -61,3 +61,33 @@ var d2 = DateTime.fromISO('2017-04-01');
 console.log(d2 < d1); //=> true
 console.log(d2 > d1); //=> false
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+________________________________________________________________
+________________________________________________________________
+
+<br><br>
+
+
+
+## Calculate a duration between two dates
+```javascript
+const date1 = luxon.DateTime.fromISO("2020-09-06T12:00")
+const date2 = luxon.DateTime.fromISO("2019-06-10T14:00")
+
+const diff = date1.diff(date2, ["years", "months", "days", "hours"])
+console.log(diff.toObject())
+```
+
