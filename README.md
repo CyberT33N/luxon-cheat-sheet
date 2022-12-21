@@ -87,6 +87,11 @@ ________________________________________________________________
 const date1 = luxon.DateTime.fromISO("2020-09-06T12:00")
 const date2 = luxon.DateTime.fromISO("2019-06-10T14:00")
 
+## Method #1
+const diff = Interval.fromDateTimes(date2, date1)
+const diffDays = diff.length('days')
+
+// Method #2
 const diff = date1.diff(date2, ["years", "months", "days", "hours"])
 console.log(diff.toObject())
 ```
